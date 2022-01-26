@@ -10,6 +10,8 @@ const Contacts = () => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
 
+  console.log(contactsSlice);
+
   const dispatch = useDispatch();
 
   const onAddClick = () => {
